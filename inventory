@@ -1,0 +1,5 @@
+[k8s_master]
+master ansible_ssh_host=[HostIP/hostname]  ansible_user=[user name]
+
+[k8s_worker]
+node ansible_ssh_host=[HostIP/hostname] ansible_user=[user name] 
